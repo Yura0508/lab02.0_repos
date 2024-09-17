@@ -16,7 +16,7 @@ int main()
 
 	cout << "a = "; cin >> a;
 
-	//z1 = pow(cos(3 / 8 * PI - a / 4), 2) - pow(cos(11 / 8 * PI + a / 4), 2);
+	//z1 = pow(cos(PI * 3 / 8 - a / 4), 2) - pow(cos(PI * 11 / 8 + a / 4), 2);
 	z2 = sqrt(2) / 2 * sin(a / 2);
 
 	//cout << "z1 = " << z1 << endl;
